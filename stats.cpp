@@ -1,6 +1,8 @@
 #include "stats.h"
 #include <vector>
 #include <algorithm>
+#include <cmath>
+
 using namespace Statistics;
 
 Stats Statistics::ComputeStatistics(const std::vector<float>& dataSet) {
